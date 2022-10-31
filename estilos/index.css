@@ -1,0 +1,197 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.815);
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    margin-left: 5%;
+    color: #3858D6;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #6D7B93;
+}
+nav div{
+    margin-left: 25%;
+}
+.destructor{
+    background-color: #2E4ECC;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 3px 0px #928f8f;
+}
+.informacion1{
+    display: flex;
+    align-items: center;
+}
+.informacion, .imagen{
+    width: 100%;
+    flex: 1;
+}
+.informacion{
+    margin: 0px -5% 0px 5%;
+}
+.informacion h1{
+    color: #1F3E72;
+    font-size: 40px;
+    font-weight: 900;
+}
+p{
+    color: #6D7B93;
+}
+.titulillos{
+    display: flex;
+    margin-bottom: 5%;
+}
+.informacion h3{
+    color: #1F3E72;
+    font-size: 15px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+.informacion h2{
+    color: #1F3E72;
+    display: flex;
+    align-items: center;
+}
+h3 img, h2 img, label img{
+    width: 15px;
+    height: 15px;
+}
+.imagen img{
+    width: 500px;
+    height: 600px;
+    float: right;
+    margin: -5px -15px 0px -15px;
+}
+.formulario{
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, 0.815);
+    margin-top: 45%;
+    margin-left: 5%;
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 3px 0px #928f8f;
+}
+.caja {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.form1, .form2, .form3{
+    padding: 0px 20px 0px 20px;
+}
+.form1 select, .form2 input, .form3 select{
+    color: #1F3E72;
+    font-weight: bold;
+    background-color: #ffffff00;
+    border-color: #00000000;
+}
+.form1 label, .form2 label, .form3 label{
+    color: #928f8f;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+.formulario button{
+    background-color: #2E4ECC;
+    color: #ffffff;
+    padding: 0px 15px 0px 15px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 3px 0px #928f8f;
+    border-color: #00000000;
+}
+.imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.imagenes img{
+    width: 200px;
+    height: 100px;
+    opacity: 0.5;
+}
+.info2{
+    margin-left: 5%;
+}
+.info2 h1{
+    color: #1F3E72;
+    font-size: 30px;
+    font-weight: 900;
+}
+.info3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 13px;
+}
+.info3 div{
+    width: 15%;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+.info3 img{
+    width: 40px;
+    height: 40px;
+}
+.cuadro2{
+    box-shadow: 0px 5px 3px  #928f8f63;
+}
+.info3 h4{
+    color: #1F3E72;
+}
+.informacion3{
+    display: flex;
+    margin-top: 5%;
+}
+.info4{
+    margin-left: 10%;
+}
+.info4 h4, .info4 h1{
+    color: #1F3E72;
+}
+.info4 h1{
+    font-weight: 900;
+}
+#activar1, #activar2, #activar3, #activar4, #activar5{
+    display: none;
+}
+.inputlabel1, .inputlabel2, .inputlabel3, .inputlabel4, .inputlabel5 {
+    padding: 1px 2px;
+    color: #1F3E72;
+    background-color: #1f3d722a;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 30%;
+    font-size: 10px;
+}
+#activar1 ~ .desplegable1, #activar2 ~ .desplegable2, #activar3 ~ .desplegable3, #activar4 ~ .desplegable4, #activar5 ~ .desplegable5{
+    display: none;
+    overflow: hidden;
+    padding: 10px 20px; 
+    color: #928f8f;
+}
+#activar1:checked ~ .desplegable1, #activar2:checked ~ .desplegable2, #activar3:checked ~ .desplegable3, #activar4:checked ~ .desplegable4, #activar5:checked ~ .desplegable5 {
+    display: block;
+}
