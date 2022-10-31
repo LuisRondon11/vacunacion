@@ -49,7 +49,7 @@ nav div{
     font-size: 40px;
     font-weight: 900;
 }
-p{
+p, .links a, .derechos a{
     color: #6D7B93;
 }
 .titulillos{
@@ -168,7 +168,7 @@ h3 img, h2 img, label img{
 .info4{
     margin-left: 10%;
 }
-.info4 h4, .info4 h1, .info5 h1, .info5 h4{
+.info4 h4, .info4 h1, .info5 h1, .info5 h4, .objetivo h2, .links h3{
     color: #1F3E72;
 }
 .info4 img{
@@ -206,6 +206,7 @@ h3 img, h2 img, label img{
 }
 .informacion4{
     display: flex;
+    margin-bottom: 5%;
 }
 .info5{
     margin-top: 5%;
@@ -238,7 +239,6 @@ h3 img, h2 img, label img{
 .contactos p{
     font-size: 13px;
 }
-
 .contactos button{
     width: 100%;
     padding: 10px 10px 10px 10px;
@@ -252,4 +252,42 @@ h3 img, h2 img, label img{
     background-color: #2E4ECC;
     color: #fff;
     box-shadow: 0px 2px 3px 0px #928f8f;
+}
+footer{
+    background-color: hsla(218, 57%, 28%, 0.082);
+    width: 100%;
+}
+.links, .links2{
+    display: flex;
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    text-decoration: none;
+}
+.objetivo{
+    width: 30%;
+    font-size: 15px;
+    margin-left: 5%;
+}
+.links2{
+    margin-left: 25%;
+}
+.link{
+    margin-left: 5%;
+}
+.derechos{
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.derechos p{
+    margin-right: 50%;
+}
+.derechos a{
+    text-decoration: none;
+    margin-left: 1%;
 }
